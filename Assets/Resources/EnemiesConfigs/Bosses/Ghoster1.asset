@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57f14550ae580d4f8178dd088543466, type: 3}
+  m_Name: Ghoster1
+  m_EditorClassIdentifier: 
+  id: Ghoster1
+  displayName: Ghoster
+  description: 
+  level: 1
+  baseCount: 4
+  countIncreaseRatio: 0.05
+  baseSpawnInterval: 1
+  spawnIntervalDecreaseRatio: 80
+  combatStats:
+    statsList:
+    - statType: 0
+      statValue: 37
+    - statType: 4
+      statValue: 1.2
+    movementType: 0
+    projectileStats:
+      moveSpeed: 0
+      splashRadius: 0
+      projectileType: 0
+      mortarHeight: 0
+      prefab: {fileID: 0}
+    abilities: []
+  prefab: {fileID: 1373461854395569752, guid: 695287aa1170e6949b0539af5191f28d, type: 3}

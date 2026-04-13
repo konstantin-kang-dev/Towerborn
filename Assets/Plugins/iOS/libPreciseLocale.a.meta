@@ -1,0 +1,40 @@
+fileFormatVersion: 2
+guid: 02ca18ab80e39418ea74872aaeb4b88a
+timeCreated: 1466977928
+licenseType: Store
+PluginImporter:
+  serializedVersion: 2
+  iconMap: {}
+  executionOrder: {}
+  isPreloaded: 0
+  isOverridable: 0
+  platformData:
+    data:
+      first:
+        Any: 
+      second:
+        enabled: 0
+        settings: {}
+    data:
+      first:
+        Editor: Editor
+      second:
+        enabled: 0
+        settings:
+          DefaultValueInitialized: true
+    data:
+      first:
+        iPhone: iOS
+      second:
+        enabled: 1
+        settings: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65836
+  packageName: Precise Locale
+  packageVersion: 1.5
+  assetPath: Assets/Plugins/iOS/libPreciseLocale.a
+  uploadId: 260467

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc7acc4b583878f459a340697139bdaf, type: 3}
+  m_Name: Ability_RapidAccelerator
+  m_EditorClassIdentifier: 
+  abilityName: Ability_RapidAccelerator
+  displayName: Rapid Accelerator
+  description: Exudes an aura that increases attack speed by {BuffValue}% of buildings
+    within a radius of {AOERadius}.
+  icon: {fileID: 3495086814825567685, guid: 215687feeab0b7445b4a1cd86c82c2e1, type: 3}
+  abilityType: 6
+  prefab: {fileID: 3521160995923905233, guid: 1fe1a475f918fa64f911692cd90c2a62, type: 3}
+  statList:
+  - type: 4
+    value: 15
+  - type: 6
+    value: 2
+  - type: 3
+    value: 3
+  - type: 2
+    value: 3

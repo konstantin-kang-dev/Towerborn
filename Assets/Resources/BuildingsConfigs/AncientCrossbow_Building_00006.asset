@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424469725cc0c8e448ccb6edbb89023f, type: 3}
+  m_Name: AncientCrossbow_Building_00006
+  m_EditorClassIdentifier: 
+  id: Building_00006
+  buildingTier: 1
+  buildingType: 0
+  level: 1
+  buildPrice: 200
+  unlockPrice: 10
+  displayName: Ancient Crossbow
+  descriptionText: Brrr, this one is kinda cold
+  kills: 0
+  cardSprite: {fileID: 21300000, guid: 645191a98f985ca419a9e0de1247ae5e, type: 3}
+  buildingPrefab: {fileID: 394050974057573283, guid: fceee94d11bee6b47b5024403d0a0c4e, type: 3}
+  combatStats:
+    statsList:
+    - statType: 1
+      statValue: 7
+    - statType: 2
+      statValue: 3.5
+    - statType: 3
+      statValue: 0.4
+    movementType: 0
+    projectileStats:
+      moveSpeed: 15
+      splashRadius: 0
+      projectileType: 0
+      mortarHeight: 0
+      prefab: {fileID: 8437890308506195600, guid: 69b45b2456b1a4c41aa5253c5397685f, type: 3}
+    abilities:
+    - {fileID: 11400000, guid: 8898f1f737b6ef941a9db871fcb18c53, type: 2}

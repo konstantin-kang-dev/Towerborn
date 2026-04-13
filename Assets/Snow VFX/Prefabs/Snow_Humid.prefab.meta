@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b38c2de66ce47024f895f2ba5c2b3210
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211683
+  packageName: Tileable Snowfall | GPU Based Effect
+  packageVersion: 1.2.0
+  assetPath: Assets/Snow VFX/Prefabs/Snow_Humid.prefab
+  uploadId: 593485

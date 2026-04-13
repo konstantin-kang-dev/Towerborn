@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: faa4b3534ff40474fa34a0f17b05b3a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 293969
+  packageName: Cartoon FX Pack Vol.1
+  packageVersion: 1.0
+  assetPath: Assets/GoodJobVFX/Cartoon FX Pack Vol.1/Scripts/ParticleSystemRestarter.cs
+  uploadId: 693668

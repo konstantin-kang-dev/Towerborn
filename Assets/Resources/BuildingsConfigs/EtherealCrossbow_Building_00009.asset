@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424469725cc0c8e448ccb6edbb89023f, type: 3}
+  m_Name: EtherealCrossbow_Building_00009
+  m_EditorClassIdentifier: 
+  id: Building_00009
+  buildingTier: 3
+  buildingType: 0
+  level: 1
+  buildPrice: 1000
+  unlockPrice: 120
+  displayName: Ethereal Crossbow
+  descriptionText: Death.
+  kills: 0
+  cardSprite: {fileID: 21300000, guid: ffed94615beabd3488cc734c1fcdd53f, type: 3}
+  buildingPrefab: {fileID: 5171002287890105994, guid: fd0f2e4f3dd984e4c8b17d9a45401379, type: 3}
+  combatStats:
+    statsList:
+    - statType: 1
+      statValue: 10
+    - statType: 2
+      statValue: 3.5
+    - statType: 3
+      statValue: 0.3
+    movementType: 0
+    projectileStats:
+      moveSpeed: 15
+      splashRadius: 0
+      projectileType: 0
+      mortarHeight: 0
+      prefab: {fileID: 5056250193114873546, guid: 74e94ee81f7022447b853279400dfb6a, type: 3}
+    abilities:
+    - {fileID: 11400000, guid: 0fb40fc77a86dde4a95a70c758b63fc5, type: 2}
+    - {fileID: 11400000, guid: 8bec07dcc4dbdda48a9177f021971fd4, type: 2}

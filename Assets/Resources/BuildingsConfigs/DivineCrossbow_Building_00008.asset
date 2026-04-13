@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424469725cc0c8e448ccb6edbb89023f, type: 3}
+  m_Name: DivineCrossbow_Building_00008
+  m_EditorClassIdentifier: 
+  id: Building_00008
+  buildingTier: 2
+  buildingType: 0
+  level: 1
+  buildPrice: 300
+  unlockPrice: 30
+  displayName: Divine Crossbow
+  descriptionText: Here we go, 4 attacks better than 1
+  kills: 0
+  cardSprite: {fileID: 21300000, guid: 2297a9138eef1624794fc77952cd28cc, type: 3}
+  buildingPrefab: {fileID: 528777124129357521, guid: 2ea2eaabc44ecff44bfaff91bd45c51f, type: 3}
+  combatStats:
+    statsList:
+    - statType: 1
+      statValue: 7
+    - statType: 2
+      statValue: 3.5
+    - statType: 3
+      statValue: 0.3
+    movementType: 0
+    projectileStats:
+      moveSpeed: 15
+      splashRadius: 0
+      projectileType: 0
+      mortarHeight: 0
+      prefab: {fileID: 5056250193114873546, guid: 11efe419d0223f54484805d0c60ebcc4, type: 3}
+    abilities:
+    - {fileID: 11400000, guid: 0fb40fc77a86dde4a95a70c758b63fc5, type: 2}

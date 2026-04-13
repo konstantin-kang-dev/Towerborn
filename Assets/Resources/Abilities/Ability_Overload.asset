@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc7acc4b583878f459a340697139bdaf, type: 3}
+  m_Name: Ability_Overload
+  m_EditorClassIdentifier: 
+  abilityName: Ability_Overload
+  displayName: Overload
+  description: Each hit on an same enemy increases the attack speed by {BuffValue}%,
+    with a maximum of {MaxStacks} stacks.
+  icon: {fileID: 3495086814825567685, guid: 215687feeab0b7445b4a1cd86c82c2e1, type: 3}
+  abilityType: 1
+  prefab: {fileID: 3521160995923905233, guid: 8d6fe5e82f3bd3c44a69c5d00f760433, type: 3}
+  statList:
+  - type: 4
+    value: 5
+  - type: 8
+    value: 10
+  - type: 3
+    value: 2

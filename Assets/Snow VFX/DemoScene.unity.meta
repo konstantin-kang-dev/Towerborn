@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ef1415dbe8c4de34d82beab1af8cf33e
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 211683
+  packageName: Tileable Snowfall | GPU Based Effect
+  packageVersion: 1.2.0
+  assetPath: Assets/Snow VFX/DemoScene.unity
+  uploadId: 593485

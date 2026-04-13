@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 424469725cc0c8e448ccb6edbb89023f, type: 3}
+  m_Name: DivineCatapult_Building_00014
+  m_EditorClassIdentifier: 
+  id: Building_00014
+  buildingTier: 2
+  buildingType: 0
+  level: 1
+  buildPrice: 300
+  unlockPrice: 30
+  displayName: Divine Catapult
+  descriptionText: A long-forgotten catapult, but nevertheless powerful enough to
+    equalize the crowd.
+  kills: 0
+  cardSprite: {fileID: 21300000, guid: e437f15b7a64f9945b4792109a141c5e, type: 3}
+  buildingPrefab: {fileID: 433335288283665917, guid: c85b3c2f11b41ab4ea4789a467c52156, type: 3}
+  combatStats:
+    statsList:
+    - statType: 1
+      statValue: 100
+    - statType: 2
+      statValue: 4
+    - statType: 3
+      statValue: 2.5
+    movementType: 0
+    projectileStats:
+      moveSpeed: 3
+      splashRadius: 1.3
+      projectileType: 1
+      mortarHeight: 4
+      prefab: {fileID: 21422921692094715, guid: 42d2cd27277fc9e42bf217447a2c7dda, type: 3}
+    abilities: []

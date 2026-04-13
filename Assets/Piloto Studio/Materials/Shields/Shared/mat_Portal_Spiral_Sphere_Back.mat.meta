@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 44f89869323fb3441a372d33f95fc21f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 300019
+  packageName: Portal Pack
+  packageVersion: 1.0
+  assetPath: Assets/Piloto Studio/Materials/Shields/Shared/mat_Portal_Spiral_Sphere_Back.mat
+  uploadId: 713582

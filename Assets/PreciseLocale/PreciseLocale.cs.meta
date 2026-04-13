@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: a4afd076106ad4824a58bfdce1df47c1
+timeCreated: 1466810033
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65836
+  packageName: Precise Locale
+  packageVersion: 1.5
+  assetPath: Assets/PreciseLocale/PreciseLocale.cs
+  uploadId: 260467

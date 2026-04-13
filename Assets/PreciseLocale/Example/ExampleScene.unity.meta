@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 65388d69219784d308e12e404cd18fc2
+timeCreated: 1466810244
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 65836
+  packageName: Precise Locale
+  packageVersion: 1.5
+  assetPath: Assets/PreciseLocale/Example/ExampleScene.unity
+  uploadId: 260467

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 55e02e6c4ae8e0847885149c4781f8dd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 229620
+  packageName: Anime Stylized VFX URP
+  packageVersion: 1.1.2023.01
+  assetPath: Assets/Vefects/Anime VFX URP/Shared/Materials/M_VFX_Fresnel_Bomb_First_Explosion_02.mat
+  uploadId: 741452
