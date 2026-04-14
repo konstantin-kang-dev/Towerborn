@@ -83,10 +83,18 @@ PrefabInstance:
       propertyPath: m_ReceiveGI
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 900906b0b4abb5b41b5c471d431e1d41, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 82f0fea56a8a709478509dda7355738f, type: 2}
     - target: {fileID: -5169677972427226811, guid: 900906b0b4abb5b41b5c471d431e1d41, type: 3}
       propertyPath: m_ReceiveGI
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: -5169677972427226811, guid: 900906b0b4abb5b41b5c471d431e1d41, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 7b58b832ea6ec9c4184248adb5dc0d50, type: 2}
     - target: {fileID: 919132149155446097, guid: 900906b0b4abb5b41b5c471d431e1d41, type: 3}
       propertyPath: m_Name
       value: weapon-cannon
@@ -148,6 +156,10 @@ PrefabInstance:
       propertyPath: _projectileSpawnPoint
       value: 
       objectReference: {fileID: 5751250503568158679}
+    - target: {fileID: 1704960895781067857, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
+      propertyPath: m_Pitch
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3454446064450493490, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
       propertyPath: <GunPlaceHolder>k__BackingField
       value: 
@@ -212,6 +224,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6fb1f5007ec5eaa4c89a3262158c2a62, type: 2}
+    - target: {fileID: 7033086266337922586, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
+      propertyPath: clips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033086266337922586, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
+      propertyPath: 'clips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: a2e0a550f4d776e4597255107984e2ab, type: 3}
     - target: {fileID: 8427217460303087405, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
       propertyPath: m_Name
       value: RustyCannon

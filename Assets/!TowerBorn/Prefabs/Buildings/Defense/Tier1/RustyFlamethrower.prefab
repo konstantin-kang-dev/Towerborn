@@ -265,6 +265,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ff165b8a9f0e8f74bae9416851bdf6c5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 92958e84a52de8b46945de7ed6dafe95, type: 2}
+    - target: {fileID: -5169677972427226811, guid: ff165b8a9f0e8f74bae9416851bdf6c5, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 96b44c73361caa84a96b7487b1849b1b, type: 2}
     - target: {fileID: 919132149155446097, guid: ff165b8a9f0e8f74bae9416851bdf6c5, type: 3}
       propertyPath: m_Name
       value: weapon-turret

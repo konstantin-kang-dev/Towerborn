@@ -185,6 +185,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7587061796323068580, guid: 7c2f30ae37dcaff4e9b4b25cb3fb4aba, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c1c5dfccd69d78a49b3ff763acaff1a8, type: 2}
+    - target: {fileID: -7511558181221131132, guid: 7c2f30ae37dcaff4e9b4b25cb3fb4aba, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 986a4abef696eae4e93f2e72f9e5c296, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c2f30ae37dcaff4e9b4b25cb3fb4aba, type: 3}
       propertyPath: m_Name
       value: weapon-catapult

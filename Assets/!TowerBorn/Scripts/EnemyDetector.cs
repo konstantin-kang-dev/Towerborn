@@ -8,7 +8,7 @@ public class EnemyDetector
 
     [Header("Detection Settings")]
     private float _detectionRadius = 10f;
-    private float _targetSearchInterval = 0.3f;
+    private float _targetSearchInterval = 0.2f;
 
     private List<BaseUnit> _targets = new List<BaseUnit>();
     private float _lastSearchTime;

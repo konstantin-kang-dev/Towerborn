@@ -31,6 +31,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 7744265410268244755}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &702164118193313267
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 7744265410268244755}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.096
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: c098e19a41877b241bb7269a8c7c5d3c, type: 2}
+    - target: {fileID: 919132149155446097, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_Name
+      value: weapon-ammo-arrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+--- !u!4 &1023495752825795096 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: ca9d68052f993e5459df3e7806c6210a, type: 3}
+  m_PrefabInstance: {fileID: 702164118193313267}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8179819935569865870
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -115,6 +201,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: d2fb7d6bf739efc43854265543989ead, type: 2}
+    - target: {fileID: 7033086266337922586, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
+      propertyPath: clips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033086266337922586, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
+      propertyPath: 'clips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: a2e0a550f4d776e4597255107984e2ab, type: 3}
     - target: {fileID: 8427217460303087405, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
       propertyPath: m_Name
       value: AncientCrossbow
@@ -188,7 +282,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: fcba602c996736c4393a4fd0872cba07, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d8ce41cda4a5dd547b93e7fecdd6ade9, type: 2}
+      objectReference: {fileID: 2100000, guid: dc359f9b1e0cef54fb596549c75a937f, type: 2}
     - target: {fileID: -3868710468543803471, guid: fcba602c996736c4393a4fd0872cba07, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -216,10 +310,13 @@ PrefabInstance:
     - target: {fileID: 3967493562214342286, guid: fcba602c996736c4393a4fd0872cba07, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: d8ce41cda4a5dd547b93e7fecdd6ade9, type: 2}
+      objectReference: {fileID: 2100000, guid: 30b9a42f632212c4cb066fcfd4686141, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 1329380249762036386, guid: fcba602c996736c4393a4fd0872cba07, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1023495752825795096}
     - targetCorrespondingSourceObject: {fileID: 1329380249762036386, guid: fcba602c996736c4393a4fd0872cba07, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6154324396655676685}

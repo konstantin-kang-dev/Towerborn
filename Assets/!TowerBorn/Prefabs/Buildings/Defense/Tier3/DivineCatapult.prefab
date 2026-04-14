@@ -191,11 +191,11 @@ PrefabInstance:
     - target: {fileID: -7587061796323068580, guid: 7c2f30ae37dcaff4e9b4b25cb3fb4aba, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6ca256e91396a9c489c7e4da0275579a, type: 2}
+      objectReference: {fileID: 2100000, guid: 85f18287cf75de64da60d8d36d04f53c, type: 2}
     - target: {fileID: -7511558181221131132, guid: 7c2f30ae37dcaff4e9b4b25cb3fb4aba, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 6ca256e91396a9c489c7e4da0275579a, type: 2}
+      objectReference: {fileID: 2100000, guid: 1037d61732ea4d745b0b5c65ca8eacaf, type: 2}
     - target: {fileID: 919132149155446097, guid: 7c2f30ae37dcaff4e9b4b25cb3fb4aba, type: 3}
       propertyPath: m_Name
       value: weapon-catapult

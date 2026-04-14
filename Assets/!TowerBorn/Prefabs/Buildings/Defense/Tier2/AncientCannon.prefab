@@ -4816,7 +4816,7 @@ ParticleSystem:
     vectorLabel1_3: W
 --- !u!199 &6294069557408309374
 ParticleSystemRenderer:
-  serializedVersion: 6
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -4835,6 +4835,8 @@ ParticleSystemRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4856,9 +4858,11 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_RenderMode: 0
   m_MeshDistribution: 0
   m_SortMode: 0
@@ -4890,7 +4894,6 @@ ParticleSystemRenderer:
   m_MeshWeighting1: 1
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
-  m_MaskInteraction: 0
 --- !u!1 &3599395271482386056
 GameObject:
   m_ObjectHideFlags: 0
@@ -4950,6 +4953,10 @@ PrefabInstance:
       propertyPath: _projectileSpawnPoint
       value: 
       objectReference: {fileID: 782724853536896290}
+    - target: {fileID: 1704960895781067857, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
+      propertyPath: m_Pitch
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 3454446064450493490, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
       propertyPath: <GunPlaceHolder>k__BackingField
       value: 
@@ -5014,6 +5021,14 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: 6fb1f5007ec5eaa4c89a3262158c2a62, type: 2}
+    - target: {fileID: 7033086266337922586, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
+      propertyPath: clips.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7033086266337922586, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
+      propertyPath: 'clips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: a2e0a550f4d776e4597255107984e2ab, type: 3}
     - target: {fileID: 8427217460303087405, guid: 8408e41a2ad7a214a803445c6a8847dc, type: 3}
       propertyPath: m_Name
       value: AncientCannon
@@ -5096,6 +5111,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2a93ce67f6e45794aa3b0e720922ba56, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea4f13c4eeccd9549828cf11b7d5f348, type: 2}
     - target: {fileID: -6210141383899247147, guid: 2a93ce67f6e45794aa3b0e720922ba56, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5186,6 +5205,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 2a93ce67f6e45794aa3b0e720922ba56, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea4f13c4eeccd9549828cf11b7d5f348, type: 2}
     - target: {fileID: -6210141383899247147, guid: 2a93ce67f6e45794aa3b0e720922ba56, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -5260,6 +5283,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 900906b0b4abb5b41b5c471d431e1d41, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: d246bd5bf6abf5b4d9197d08789778bf, type: 2}
     - target: {fileID: -7314745045437555281, guid: 900906b0b4abb5b41b5c471d431e1d41, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3
@@ -5280,6 +5307,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -5169677972427226811, guid: 900906b0b4abb5b41b5c471d431e1d41, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: ea4f13c4eeccd9549828cf11b7d5f348, type: 2}
     - target: {fileID: 919132149155446097, guid: 900906b0b4abb5b41b5c471d431e1d41, type: 3}
       propertyPath: m_Name
       value: weapon-cannon
