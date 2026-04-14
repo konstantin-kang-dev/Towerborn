@@ -1,9 +1,10 @@
 {
     "name": "BakeryEditorAssembly",
+    "rootNamespace": "",
     "references": [
-        "BakeryRuntimeAssembly"
+        "BakeryRuntimeAssembly",
+        "BakeryAPV"
     ],
-    "optionalUnityReferences": [],
     "includePlatforms": [
         "Editor"
     ],
@@ -12,5 +13,18 @@
     "overrideReferences": false,
     "precompiledReferences": [],
     "autoReferenced": true,
-    "defineConstraints": []
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.render-pipelines.core",
+            "expression": "17.0.3",
+            "define": "CORE_RP_1703"
+        },
+        {
+            "name": "com.unity.collections",
+            "expression": "2.5.1",
+            "define": "NATIVE_ARRAYS"
+        }
+    ],
+    "noEngineReferences": false
 }

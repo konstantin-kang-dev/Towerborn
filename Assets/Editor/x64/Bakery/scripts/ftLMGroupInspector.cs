@@ -27,6 +27,8 @@ public class ftLMGroupInspector : UnityEditor.Editor
     SerializedProperty ftraceFlipNormal;
     SerializedProperty ftraceSSSScale;
     SerializedProperty ftraceAutoResolution;
+    SerializedProperty ftraceVertexSamplingDensity;
+    //SerializedProperty ftraceForceBakeWithNormalMaps;
 
     static string[] selStrings = new string[] {"0","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16",
                                                 "17","18","19","20","21","22","23","24","25","26","27","28","29","30"};//,"31"};
@@ -50,6 +52,8 @@ public class ftLMGroupInspector : UnityEditor.Editor
         ftraceTransparentSelfShadow = serializedObject.FindProperty("transparentSelfShadow");
         ftraceFlipNormal = serializedObject.FindProperty("flipNormal");
         ftraceAutoResolution = serializedObject.FindProperty("autoResolution");
+        ftraceVertexSamplingDensity = serializedObject.FindProperty("vertexSamplingDensity");
+        //ftraceForceBakeWithNormalMaps = serializedObject.FindProperty("forceBakeWithNormalMaps");
     }
 
     public override void OnInspectorGUI() {
@@ -63,13 +67,28 @@ public class ftLMGroupInspector : UnityEditor.Editor
             EditorGUILayout.PropertyField(ftraceAutoResolution, new GUIContent("Auto resolution", "Use Texels Per Unit to determine closest power-of-two resolution."));
             if (!ftraceAutoResolution.boolValue)
             {
-                var prev = ftraceResolution.intValue;
-                ftraceResolution.intValue = (int)Mathf.ClosestPowerOfTwo(EditorGUILayout.IntSlider("Resolution", ftraceResolution.intValue, 1, 8192));
-                if (ftraceResolution.intValue != prev) EditorUtility.SetDirty(target);
+                EditorGUI.BeginChangeCheck();
+                EditorGUI.showMixedValue = ftraceResolution.hasMultipleDifferentValues;
+                int res2 = (int)Mathf.ClosestPowerOfTwo(EditorGUILayout.IntSlider("Resolution", ftraceResolution.intValue, 1, 8192));
+                var changedRes = EditorGUI.EndChangeCheck();
+                if (changedRes)
+                {
+                    ftraceResolution.intValue = res2;
+                    EditorUtility.SetDirty(target);
+                }
             }
         }
 
         EditorGUILayout.PropertyField(ftraceMode, new GUIContent("Packing mode", "Determines how lightmaps are packed. In Simple mode they are not packed, and all objects sharing this group are drawn on top of each other. This is desired in case they were all unwrapped together and do not overlap. If UVs of different objects overlap, choose PackAtlas to arrange their lightmaps together into a single packed atlas."));
+
+        if (ftraceMode.intValue == (int)BakeryLightmapGroup.ftLMGroupMode.Vertex)
+        {
+            EditorGUILayout.PropertyField(ftraceVertexSamplingDensity, new GUIContent("Vertex sampling density", "If > 0, computes multiple points on triangles and averages them for each vertex. Since denoising is not available for vertex lightmaps, this option can be used for filtering instead."));
+            if (ftraceVertexSamplingDensity.intValue < 0)
+            {
+                ftraceVertexSamplingDensity.intValue = 0;
+            }
+        }
 
         EditorGUILayout.PropertyField(ftraceRenderMode, new GUIContent("Render Mode", ""));
 
@@ -100,6 +119,7 @@ public class ftLMGroupInspector : UnityEditor.Editor
         EditorGUILayout.PropertyField(ftraceFakeShadowBias, new GUIContent("Normal offset", "Fake normal offset for surface samples. Might be useful when applying very strong normal maps."));
         EditorGUILayout.PropertyField(ftraceTransparentSelfShadow, new GUIContent("Transparent selfshadow", "Start rays behind the surface so it doesn't cast shadows on self. Might be useful for translucent foliage."));
         EditorGUILayout.PropertyField(ftraceFlipNormal, new GUIContent("Flip normal", "Treat faces as flipped."));
+        //EditorGUILayout.PropertyField(ftraceForceBakeWithNormalMaps, new GUIContent("Force bake with normal maps", "Take normal maps into account, just like when Directional Mode is set to Baked Normal Maps. This can be useful in conjunction with SH/RNM modes, as ray positions will be optimized to perturbed normal."));
 
         serializedObject.ApplyModifiedProperties();
     }

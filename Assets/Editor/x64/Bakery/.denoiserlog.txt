@@ -3851,3 +3851,4843 @@ Tiles: 1
 Loading shader denoisePrepareOIDN.ptx::oxMain...
 Loading shader denoiseFinishOIDN.ptx::oxMain...
 Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareOIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishOIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done
+2026-4-14
+Init...
+Context created
+Tiles: 1
+Loading shader denoisePrepareSH_OIDN.ptx::oxMain...
+Loaded
+Loading shader denoiseFinishSH_OIDN.ptx::oxMain...
+Loaded
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+$
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+launch1
+launch2
+launch3
+launch4
+Device 0: NVIDIA GeForce RTX 4070 Ti (ON)
+launch1
+launch2
+launch3
+launch4
+%
+Done

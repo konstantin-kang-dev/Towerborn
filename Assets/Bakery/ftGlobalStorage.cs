@@ -113,10 +113,16 @@ public class ftGlobalStorage : ScriptableObject
     public bool foundCompatibleSetup = false;
 
     [SerializeField]
-    public string gpuName = "";
+    public string gpuName_2 = ""; // force testing hardware/driver capabilities again
 
     [SerializeField]
     public bool runsNonRTX = true;
+
+    [SerializeField]
+    public bool runsRTX6 = true;
+
+    [SerializeField]
+    public bool runsRTX9 = true;
 
     [SerializeField]
     public bool runsOptix5 = true;
@@ -194,10 +200,6 @@ public class ftGlobalStorage : ScriptableObject
     [SerializeField]
     public bool renderSettingsAdjustSamples = true;
     [SerializeField]
-    public int renderSettingsGILODMode = 2;
-    [SerializeField]
-    public bool renderSettingsGILODModeEnabled = false;
-    [SerializeField]
     public bool renderSettingsCheckOverlaps = false;
     [SerializeField]
     public bool renderSettingsSkipOutOfBoundsUVs = true;
@@ -216,6 +218,8 @@ public class ftGlobalStorage : ScriptableObject
     [SerializeField]
     public int renderSettingsHackAOSamples = 16;
     [SerializeField]
+    public bool renderSettingsHackAOSofter = false;
+    [SerializeField]
     public float renderSettingsHackAORadius = 1;
     [SerializeField]
     public bool renderSettingsShowAOSettings = false;
@@ -227,6 +231,12 @@ public class ftGlobalStorage : ScriptableObject
     public bool renderSettingsShowPaths = true;
     [SerializeField]
     public bool renderSettingsShowNet = true;
+    [SerializeField]
+    public bool renderSettingsShowSettingsAsset = true;
+    [SerializeField]
+    public bool renderSettingsShowAPV = false;
+    [SerializeField]
+    public bool renderSettingsUseAPVSkyOcclusion = false;
     [SerializeField]
     public bool renderSettingsOcclusionProbes = false;
     [SerializeField]
@@ -248,6 +258,8 @@ public class ftGlobalStorage : ScriptableObject
     [SerializeField]
     public bool renderSettingsSuppressPopups = false;
     [SerializeField]
+    public bool renderSettingsSectorWarning = false;
+    [SerializeField]
     public bool renderSettingsPrefabWarning = true;
     [SerializeField]
     public bool renderSettingsSplitByScene = false;
@@ -256,9 +268,15 @@ public class ftGlobalStorage : ScriptableObject
     [SerializeField]
     public bool renderSettingsUVPaddingMax = false;
     [SerializeField]
+    public bool renderSettingsUVPaddingPreserveIfExisted = false;
+    [SerializeField]
     public bool renderSettingsPostPacking = true;
     [SerializeField]
     public bool renderSettingsHoleFilling = false;
+    [SerializeField]
+    public bool renderSettingsBruteForce = true;
+    [SerializeField]
+    public bool renderSettingsAlphaDithering = false;
     [SerializeField]
     public bool renderSettingsBeepOnFinish = false;
     [SerializeField]
@@ -301,7 +319,10 @@ public class ftGlobalStorage : ScriptableObject
     public int renderSettingsRTPVWidth = 640;
     [SerializeField]
     public int renderSettingsRTPVHeight = 360;
-
+    [SerializeField]
+    public float renderSettingsRTPVExposure = 1.0f;
+    [SerializeField]
+    public bool renderSettingsRemoveDuplicateLightmaps = false;
     // Tag overrides
     [SerializeField]
     public List<TagData> tagOverrides = new List<TagData>();

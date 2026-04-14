@@ -10,149 +10,89 @@
 .target sm_30
 .address_size 64
 
-	// .globl	_Z6oxMainv
-.global .align 8 .b8 pixelID[8];
-.global .align 8 .b8 resolution[8];
-.global .align 1 .b8 input_buffer[1];
-.global .align 1 .b8 image[1];
-.global .align 4 .u32 mode;
-.global .align 4 .b8 _ZN21rti_internal_typeinfo7pixelIDE[8] = {82, 97, 121, 0, 8, 0, 0, 0};
-.global .align 4 .b8 _ZN21rti_internal_typeinfo10resolutionE[8] = {82, 97, 121, 0, 8, 0, 0, 0};
-.global .align 4 .b8 _ZN21rti_internal_typeinfo4modeE[8] = {82, 97, 121, 0, 4, 0, 0, 0};
-.global .align 8 .u64 _ZN21rti_internal_register20reg_bitness_detectorE;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail0E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail1E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail2E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail3E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail4E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail5E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail6E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail7E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail8E;
-.global .align 8 .u64 _ZN21rti_internal_register24reg_exception_64_detail9E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail0E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail1E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail2E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail3E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail4E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail5E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail6E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail7E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail8E;
-.global .align 4 .u32 _ZN21rti_internal_register21reg_exception_detail9E;
-.global .align 4 .u32 _ZN21rti_internal_register14reg_rayIndex_xE;
-.global .align 4 .u32 _ZN21rti_internal_register14reg_rayIndex_yE;
-.global .align 4 .u32 _ZN21rti_internal_register14reg_rayIndex_zE;
-.global .align 8 .b8 _ZN21rti_internal_typename7pixelIDE[6] = {117, 105, 110, 116, 50, 0};
-.global .align 8 .b8 _ZN21rti_internal_typename10resolutionE[6] = {117, 105, 110, 116, 50, 0};
-.global .align 4 .b8 _ZN21rti_internal_typename4modeE[4] = {105, 110, 116, 0};
-.global .align 4 .u32 _ZN21rti_internal_typeenum7pixelIDE = 4919;
-.global .align 4 .u32 _ZN21rti_internal_typeenum10resolutionE = 4919;
-.global .align 4 .u32 _ZN21rti_internal_typeenum4modeE = 4919;
-.global .align 16 .b8 _ZN21rti_internal_semantic7pixelIDE[14] = {114, 116, 76, 97, 117, 110, 99, 104, 73, 110, 100, 101, 120, 0};
-.global .align 16 .b8 _ZN21rti_internal_semantic10resolutionE[12] = {114, 116, 76, 97, 117, 110, 99, 104, 68, 105, 109, 0};
-.global .align 1 .b8 _ZN21rti_internal_semantic4modeE[1];
-.global .align 1 .b8 _ZN23rti_internal_annotation7pixelIDE[1];
-.global .align 1 .b8 _ZN23rti_internal_annotation10resolutionE[1];
-.global .align 1 .b8 _ZN23rti_internal_annotation4modeE[1];
+	// .globl	oxMain
+.const .align 8 .b8 params[88];
 
-.visible .entry _Z6oxMainv(
+.visible .entry oxMain(
 
 )
 {
-	.reg .pred 	%p<2>;
-	.reg .b16 	%rs<4>;
+	.reg .pred 	%p<5>;
+	.reg .b16 	%rs<8>;
 	.reg .f32 	%f<16>;
-	.reg .b32 	%r<40>;
-	.reg .b64 	%rd<48>;
+	.reg .b32 	%r<22>;
+	.reg .b64 	%rd<15>;
 
 
-	ld.global.u32 	%r1, [mode];
-	setp.gt.s32	%p1, %r1, 0;
-	ld.global.v2.u32 	{%r2, %r3}, [pixelID];
-	cvt.u64.u32	%rd1, %r2;
-	cvt.u64.u32	%rd2, %r3;
-	@%p1 bra 	BB0_2;
+	mov.u32 	%r6, %ctaid.x;
+	mov.u32 	%r7, %ntid.x;
+	mov.u32 	%r8, %tid.x;
+	mad.lo.s32 	%r1, %r7, %r6, %r8;
+	mov.u32 	%r9, %ntid.y;
+	mov.u32 	%r10, %ctaid.y;
+	mov.u32 	%r11, %tid.y;
+	mad.lo.s32 	%r2, %r9, %r10, %r11;
+	mov.u32 	%r12, %nctaid.x;
+	mul.lo.s32 	%r13, %r12, %r7;
+	mov.u32 	%r14, %nctaid.y;
+	mul.lo.s32 	%r15, %r14, %r9;
+	setp.lt.u32	%p1, %r1, %r13;
+	setp.lt.u32	%p2, %r2, %r15;
+	and.pred  	%p3, %p1, %p2;
+	@!%p3 bra 	BB0_5;
 	bra.uni 	BB0_1;
 
-BB0_2:
-	mov.u64 	%rd40, input_buffer;
-	cvta.global.u64 	%rd23, %rd40;
-	mov.u32 	%r24, 2;
-	mov.u32 	%r25, 12;
-	mov.u64 	%rd39, 0;
-	// inline asm
-	call (%rd22), _rt_buffer_get_64, (%rd23, %r24, %r25, %rd1, %rd2, %rd39, %rd39);
-	// inline asm
-	ld.f32 	%f13, [%rd22];
-	ld.global.v2.u32 	{%r26, %r27}, [pixelID];
-	cvt.u64.u32	%rd30, %r26;
-	cvt.u64.u32	%rd31, %r27;
-	// inline asm
-	call (%rd28), _rt_buffer_get_64, (%rd23, %r24, %r25, %rd30, %rd31, %rd39, %rd39);
-	// inline asm
-	ld.f32 	%f14, [%rd28+4];
-	ld.global.v2.u32 	{%r30, %r31}, [pixelID];
-	cvt.u64.u32	%rd36, %r30;
-	cvt.u64.u32	%rd37, %r31;
-	// inline asm
-	call (%rd34), _rt_buffer_get_64, (%rd23, %r24, %r25, %rd36, %rd37, %rd39, %rd39);
-	// inline asm
-	ld.f32 	%f15, [%rd34+8];
-	bra.uni 	BB0_3;
-
 BB0_1:
-	mov.u64 	%rd21, image;
-	cvta.global.u64 	%rd4, %rd21;
-	mov.u32 	%r10, 2;
-	mov.u32 	%r11, 8;
-	mov.u64 	%rd20, 0;
-	// inline asm
-	call (%rd3), _rt_buffer_get_64, (%rd4, %r10, %r11, %rd1, %rd2, %rd20, %rd20);
-	// inline asm
-	ld.u16 	%rs1, [%rd3];
-	// inline asm
-	{  cvt.f32.f16 %f13, %rs1;}
-
-	// inline asm
-	ld.global.v2.u32 	{%r12, %r13}, [pixelID];
-	cvt.u64.u32	%rd11, %r12;
-	cvt.u64.u32	%rd12, %r13;
-	// inline asm
-	call (%rd9), _rt_buffer_get_64, (%rd4, %r10, %r11, %rd11, %rd12, %rd20, %rd20);
-	// inline asm
-	ld.u16 	%rs2, [%rd9+2];
-	// inline asm
-	{  cvt.f32.f16 %f14, %rs2;}
-
-	// inline asm
-	ld.global.v2.u32 	{%r16, %r17}, [pixelID];
-	cvt.u64.u32	%rd17, %r16;
-	cvt.u64.u32	%rd18, %r17;
-	// inline asm
-	call (%rd15), _rt_buffer_get_64, (%rd4, %r10, %r11, %rd17, %rd18, %rd20, %rd20);
-	// inline asm
-	ld.u16 	%rs3, [%rd15+4];
-	// inline asm
-	{  cvt.f32.f16 %f15, %rs3;}
-
-	// inline asm
+	ld.const.u32 	%r16, [params+80];
+	setp.gt.s32	%p4, %r16, 0;
+	@%p4 bra 	BB0_3;
+	bra.uni 	BB0_2;
 
 BB0_3:
-	ld.global.v2.u32 	{%r36, %r37}, [pixelID];
-	cvt.u64.u32	%rd43, %r36;
-	cvt.u64.u32	%rd44, %r37;
-	mov.u64 	%rd47, input_buffer;
-	cvta.global.u64 	%rd42, %rd47;
-	mov.u32 	%r34, 2;
-	mov.u32 	%r35, 12;
-	mov.u64 	%rd46, 0;
+	ld.const.u64 	%rd14, [params+56];
+	cvta.to.global.u64 	%rd8, %rd14;
+	ld.const.u32 	%r21, [params+48];
+	mad.lo.s32 	%r19, %r21, %r2, %r1;
+	mul.wide.u32 	%rd9, %r19, 12;
+	add.s64 	%rd10, %rd8, %rd9;
+	ld.global.f32 	%f13, [%rd10];
+	ld.global.f32 	%f14, [%rd10+4];
+	ld.global.f32 	%f15, [%rd10+8];
+	bra.uni 	BB0_4;
+
+BB0_2:
+	ld.const.u64 	%rd4, [params+8];
+	cvta.to.global.u64 	%rd5, %rd4;
+	ld.const.u32 	%r17, [params];
+	mad.lo.s32 	%r18, %r17, %r2, %r1;
+	mul.wide.u32 	%rd6, %r18, 8;
+	add.s64 	%rd7, %rd5, %rd6;
+	ld.global.v4.u16 	{%rs4, %rs5, %rs6, %rs7}, [%rd7];
 	// inline asm
-	call (%rd41), _rt_buffer_get_64, (%rd42, %r34, %r35, %rd43, %rd44, %rd46, %rd46);
+	{  cvt.f32.f16 %f13, %rs4;}
+
 	// inline asm
-	st.f32 	[%rd41+8], %f15;
-	st.f32 	[%rd41+4], %f14;
-	st.f32 	[%rd41], %f13;
+	// inline asm
+	{  cvt.f32.f16 %f14, %rs5;}
+
+	// inline asm
+	// inline asm
+	{  cvt.f32.f16 %f15, %rs6;}
+
+	// inline asm
+	ld.const.u64 	%rd14, [params+56];
+	ld.const.u32 	%r21, [params+48];
+
+BB0_4:
+	mad.lo.s32 	%r20, %r21, %r2, %r1;
+	cvta.to.global.u64 	%rd11, %rd14;
+	mul.wide.u32 	%rd12, %r20, 12;
+	add.s64 	%rd13, %rd11, %rd12;
+	st.global.f32 	[%rd13], %f13;
+	st.global.f32 	[%rd13+4], %f14;
+	st.global.f32 	[%rd13+8], %f15;
+
+BB0_5:
 	ret;
 }
 

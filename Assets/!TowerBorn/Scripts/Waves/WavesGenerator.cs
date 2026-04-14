@@ -55,7 +55,7 @@ public class WavesGenerator : MonoBehaviour
         waveConfig.spawnInterval = randomUnitConfig.baseSpawnInterval / (1f + waveNumber / randomUnitConfig.spawnIntervalDecreaseRatio);
         waveConfig.enemiesCount = Mathf.FloorToInt(randomUnitConfig.baseCount * (1f + waveNumber * randomUnitConfig.countIncreaseRatio));
 
-        waveConfig.spawnDelay = 4f;
+        waveConfig.spawnDelay = 2f;
         waveConfig.waveNumber = waveNumber;
         waveConfig.enemyConfig = randomUnitConfig;
         

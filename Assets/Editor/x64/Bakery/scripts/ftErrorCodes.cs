@@ -19,6 +19,7 @@ public class ftErrorCodes
         {5005991, "Can't load sss.bin"},
         {507, "Can't load vbtraceUV0.bin"},
         {508, "Can't load UVGBuffer tangent"},
+        {509, "Can't load UVGBuffer LOD"},
         {550, "Can't load light data. See .ftracelog.txt for details."},
         {557, "Can't load alpha IDs. See .ftracelog.txt for details."},
         {512, "Can't load compositing data. See .ftracelog.txt for details."},
@@ -43,6 +44,8 @@ public class ftErrorCodes
         {5092, "Can't decompress UVGBuffer smooth position"},
         {5093, "Can't decompress UVGBuffer face normal"},
         {5083, "Can't decompress UVGBuffer tangent"},
+        {50933, "Can't decompress UVGBuffer LOD"},
+        {7501, "64-bit mode Optimized LOD mode is not implemented in non-RTX mode."},
         {7007, "Can't load direct.bin"},
         {7771, "Can't read sky texture"},
         {7772, "Can't read light texture"},
@@ -252,6 +255,7 @@ public class ftErrorCodes
         if (app == "ftrace") return TranslateFtrace(code, false);
         if (app == "ftraceRTX") return TranslateFtrace(code, true);
         if (app == "combineMasks") return TranslateCombineMasks(code);
+        if (app == "combineSH") return TranslateCombineMasks(code);
         if (app == "denoiser") return TranslateDenoiser(code);
         if (app == "denoiser72") return TranslateDenoiser(code);
         if (app == "denoiserLegacy") return TranslateDenoiser(code);

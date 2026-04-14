@@ -16,14 +16,14 @@ MonoBehaviour:
   displayName: Stumpy
   description: Young stump
   level: 1
-  baseCount: 20
-  countIncreaseRatio: 0.04
-  baseSpawnInterval: 1
+  baseCount: 10
+  countIncreaseRatio: 0.1
+  baseSpawnInterval: 0.5
   spawnIntervalDecreaseRatio: 40
   combatStats:
     statsList:
     - statType: 0
-      statValue: 18
+      statValue: 9
     - statType: 4
       statValue: 1
     movementType: 0

@@ -12,29 +12,30 @@ public class ftClient
     public const byte SERVERTASK_COPY = 0;
     public const byte SERVERTASK_FTRACE = 1;
     public const byte SERVERTASK_FTRACERTX = 2;
-    public const byte SERVERTASK_COMBINEMASKS = 3;
-    public const byte SERVERTASK_COMBINESH = 4;
+    public const byte SERVERTASK_FTRACERTX9 = 3;
+    public const byte SERVERTASK_COMBINEMASKS = 4;
+    public const byte SERVERTASK_COMBINESH = 5;
 
-    public const byte SERVERTASK_DENOISE5 = 5;
-    public const byte SERVERTASK_DENOISE6 = 6;
-    public const byte SERVERTASK_DENOISE7 = 7;
-    public const byte SERVERTASK_DENOISEOIDN = 8;
-    public const byte SERVERTASK_DENOISEOIDN2 = 9;
+    public const byte SERVERTASK_DENOISE5 = 6;
+    public const byte SERVERTASK_DENOISE6 = 7;
+    public const byte SERVERTASK_DENOISE7 = 8;
+    public const byte SERVERTASK_DENOISEOIDN = 9;
+    public const byte SERVERTASK_DENOISEOIDN2 = 10;
 
-    public const byte SERVERTASK_HF2HDR = 10;
-    public const byte SERVERTASK_RGBA2TGA = 11;
-    public const byte SERVERTASK_SEAMFIX = 12;
+    public const byte SERVERTASK_HF2HDR = 11;
+    public const byte SERVERTASK_RGBA2TGA = 12;
+    public const byte SERVERTASK_SEAMFIX = 13;
 
-    public const byte SERVERTASK_LMREBAKE = 13;
-    public const byte SERVERTASK_LMREBAKESIMPLE = 14;
-    public const byte SERVERTASK_LODGEN = 15;
-    public const byte SERVERTASK_LODGENINIT = 16;
-    public const byte SERVERTASK_GIPARAMS = 17;
-    public const byte SERVERTASK_RECEIVEFILE = 18;
-    public const byte SERVERTASK_REPORTSTATUS = 19;
-    public const byte SERVERTASK_SETSCENENAME = 20;
-    public const byte SERVERTASK_GETDATA = 21;
-    public const byte SERVERTASK_GETDATAREADY = 22;
+    public const byte SERVERTASK_LMREBAKE = 14;
+    public const byte SERVERTASK_LMREBAKESIMPLE = 15;
+    public const byte SERVERTASK_LODGEN = 16;
+    public const byte SERVERTASK_LODGENINIT = 17;
+    public const byte SERVERTASK_GIPARAMS = 18;
+    public const byte SERVERTASK_RECEIVEFILE = 19;
+    public const byte SERVERTASK_REPORTSTATUS = 20;
+    public const byte SERVERTASK_SETSCENENAME = 21;
+    public const byte SERVERTASK_GETDATA = 22;
+    public const byte SERVERTASK_GETDATAREADY = 23;
 
     public const byte SERVERERROR_IDLE = 0;
     public const byte SERVERERROR_COPY = 1;
@@ -57,7 +58,7 @@ public class ftClient
     public const byte SERVERERROR_STATUSLIMIT = 18;
 
     public static string serverAddress = "127.0.0.1";
-    const int serverPort = 27777;
+    public static int serverPort = 27777;
     public static bool connectedToServer = false;
     public static string lastServerMsg = "Server: no data";
     public static string lastServerScene = ""; // last baked scene
@@ -77,10 +78,17 @@ public class ftClient
     //static System.Threading.Thread statusThread;
     static IEnumerator statusProc;
 
+    const int STATE_NONE = -1;
+    const int STATE_STARTED = 0;
+    const int STATE_BUSY = 1;
+    const int STATE_DONE = 2;
+    static int state = STATE_NONE;
+
     public static Dictionary<string, byte> app2serverTask = new Dictionary<string, byte>
     {
         {"ftrace", SERVERTASK_FTRACE},
         {"ftraceRTX", SERVERTASK_FTRACERTX},
+        {"ftraceRTX9", SERVERTASK_FTRACERTX9},
         {"combineMasks", SERVERTASK_COMBINEMASKS},
         {"combineSH", SERVERTASK_COMBINESH},
 
@@ -238,6 +246,7 @@ public class ftClient
                 statusProc = null;
                 //statusThread = null;
                 connectedToServer = false;
+                state = STATE_NONE;
                 //return;
                 yield break;
             }
@@ -308,6 +317,7 @@ public class ftClient
                         //statusThread = null;
                         statusProc = null;
                         connectedToServer = false;
+                        state = STATE_NONE;
                         yield break;
                     }
                 }
@@ -326,7 +336,8 @@ public class ftClient
                     }
                     else
                     {
-                        outPath = "Assets/" + ftRenderLightmap.outputPath + "/" + lastServerFile;
+                        string mpath = ftRenderLightmap.curSector != null ? ("/"+ftRenderLightmap.curSector.name) : "";
+                        outPath = "Assets/" + ftRenderLightmap.outputPath + mpath + "/" + lastServerFile;
                     }
                     BinaryWriter bw = null;
                     try
@@ -374,6 +385,15 @@ public class ftClient
                     //if (serverErrCode != 0)
                     {
                         var serverMsg = "Server: " + ftErrorCodes.TranslateServer(serverErrCode, appCode, appErrCode);
+                        if (state == STATE_STARTED && serverErrCode == SERVERERROR_BUSY)
+                        {
+                            state = STATE_BUSY;
+                        }
+                        else if (state == STATE_BUSY && serverErrCode == SERVERERROR_IDLE)
+                        {
+                            ftRenderLightmap.instance.Beep();
+                            state = STATE_DONE;
+                        }
                         bool isError = serverErrCode != SERVERERROR_IDLE && serverErrCode != SERVERERROR_BUSY;
                         if (isError)
                         {
@@ -437,6 +457,7 @@ public class ftClient
 
         connectedToServer = false;
         serverGetDataMode = false;
+        state = STATE_NONE;
     }
 
     public static void ConnectToServer()
@@ -461,6 +482,7 @@ public class ftClient
 
     public static bool SendRenderSequence(byte[] renderSequence)
     {
+        state = STATE_STARTED;
         Socket soc = null;
         var ipAdd = System.Net.IPAddress.Parse(serverAddress);
         var remoteEP = new IPEndPoint(ipAdd, serverPort);

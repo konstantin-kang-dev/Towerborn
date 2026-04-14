@@ -15,6 +15,8 @@ public class ftLightMeshInspector : UnityEditor.Editor
     SerializedProperty ftraceLightIntensity;
     SerializedProperty ftraceLightIndirectIntensity;
     SerializedProperty ftraceLightTexture;
+    //SerializedProperty ftraceLightTexScale;
+    //SerializedProperty ftraceLightTexOffset;
     SerializedProperty ftraceLightCutoff;
     SerializedProperty ftraceLightSamples;
     SerializedProperty ftraceLightSamples2;
@@ -38,6 +40,8 @@ public class ftLightMeshInspector : UnityEditor.Editor
     {
         ftraceLightColor = obj.FindProperty("color");
         ftraceLightTexture = obj.FindProperty("texture");
+        //ftraceLightTexScale = obj.FindProperty("texScale");
+        //ftraceLightTexOffset = obj.FindProperty("texOffset");
         ftraceLightIntensity = obj.FindProperty("intensity");
         ftraceLightIndirectIntensity = obj.FindProperty("indirectIntensity");
         ftraceLightCutoff = obj.FindProperty("cutoff");
@@ -131,6 +135,19 @@ public class ftLightMeshInspector : UnityEditor.Editor
             var so = new SerializedObject(hdrpLight);
             if (so != null)
             {
+#if UNITY_6000_0_OR_NEWER
+                if (obj.type == LightType.Rectangle)
+                {
+                    var hdrpLightShapeWidth = so.FindProperty("m_ShapeWidth");
+                    var hdrpLightShapeHeight = so.FindProperty("m_ShapeHeight");
+                    areaSize = new Vector2(hdrpLightShapeWidth != null ? hdrpLightShapeWidth.floatValue : 1,
+                                           hdrpLightShapeHeight != null ? hdrpLightShapeHeight.floatValue : 1);
+                }
+                else
+                {
+                    Debug.LogError(obj.name + " HDRP light type unsupported (2): " + obj.type);
+                }
+#else
                 var hdrpLightTypeExtent = so.FindProperty("m_PointlightHDType");
                 var hdrpLightTypeExtent2 = so.FindProperty("m_AreaLightShape");
                 if (hdrpLightTypeExtent != null && hdrpLightTypeExtent2 != null)
@@ -150,6 +167,7 @@ public class ftLightMeshInspector : UnityEditor.Editor
                         Debug.LogError(obj.name + " HDRP light type unsupported: " + extendedLightType + ", " + extendedLightType2);
                     }
                 }
+#endif
             }
         }
         return areaSize;
@@ -181,6 +199,9 @@ public class ftLightMeshInspector : UnityEditor.Editor
             var so = new SerializedObject(hdrpLight);
             if (so != null)
             {
+#if UNITY_6000_0_OR_NEWER
+                return obj.type == LightType.Rectangle;
+#else
                 var hdrpLightTypeExtent = so.FindProperty("m_PointlightHDType");
                 var hdrpLightTypeExtent2 = so.FindProperty("m_AreaLightShape");
                 if (hdrpLightTypeExtent != null && hdrpLightTypeExtent2 != null)
@@ -193,11 +214,16 @@ public class ftLightMeshInspector : UnityEditor.Editor
                         return true;
                     }
                 }
+#endif
             }
         }
         else
         {
+#if UNITY_2018_3_OR_NEWER
             return obj.type == LightType.Rectangle;
+#else
+            return obj.type == LightType.Area;
+#endif
         }
         return false;
     }
@@ -213,7 +239,14 @@ public class ftLightMeshInspector : UnityEditor.Editor
             EditorGUILayout.PropertyField(ftraceLightColor, new GUIContent("Color", "Color of the light"));
             EditorGUILayout.PropertyField(ftraceLightIntensity, new GUIContent("Intensity", "Color multiplier"));
             EditorGUILayout.PropertyField(ftraceLightTexture, new GUIContent("Texture", "Texture"));
+            /*if (ftraceLightTexture.objectReferenceValue != null)
+            {
+                EditorGUILayout.PropertyField(ftraceLightTexScale, new GUIContent("Texture Tiling", ""));
+                EditorGUILayout.PropertyField(ftraceLightTexOffset, new GUIContent("Texture offset", ""));
+            }*/
             EditorGUILayout.PropertyField(ftraceLightCutoff, new GUIContent("Cutoff", "Lighting distance limit. For maximum physical corectness set to a very high value. Using smaller values is useful for faster render times and to match real-time lights. Bakery uses Skyforge falloff to maintain balance between correct inverse-squared attenuation and practical limits (https://habr.com/company/mailru/blog/248873/)"));
+
+            EditorGUILayout.PropertyField(ftraceLightSelfShadow, new GUIContent("Self shadow", "Determines if light mesh itself casts shadows."));
 
             if (ftraceLightSelfShadow.boolValue)
             {
@@ -234,8 +267,6 @@ public class ftLightMeshInspector : UnityEditor.Editor
             int prevVal = ftraceLightBitmask.intValue;
             int newVal = EditorGUILayout.MaskField(new GUIContent("Bitmask", "Lights only affect renderers with overlapping bits"), ftraceLightBitmask.intValue, selStrings);
             if (prevVal != newVal) ftraceLightBitmask.intValue = newVal;
-
-            EditorGUILayout.PropertyField(ftraceLightSelfShadow, new GUIContent("Self shadow", "Determines if light mesh itself casts shadows."));
 
             //EditorGUILayout.PropertyField(ftraceLightBakeToIndirect, new GUIContent("Bake to indirect", "Add direct contribution from this light to indirect-only lightmaps"));
 

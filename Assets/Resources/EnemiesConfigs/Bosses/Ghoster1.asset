@@ -16,14 +16,14 @@ MonoBehaviour:
   displayName: Ghoster
   description: 
   level: 1
-  baseCount: 4
-  countIncreaseRatio: 0.05
+  baseCount: 2
+  countIncreaseRatio: 0.025
   baseSpawnInterval: 1
   spawnIntervalDecreaseRatio: 80
   combatStats:
     statsList:
     - statType: 0
-      statValue: 37
+      statValue: 74
     - statType: 4
       statValue: 1.2
     movementType: 0

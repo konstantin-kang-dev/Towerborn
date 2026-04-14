@@ -7,7 +7,7 @@ using static UnityEngine.GraphicsBuffer;
 
 public class AbilityMultishot : BaseAbility
 {
-    [SerializeField] int TargetsCount => (int)Config.GetStatValue(AbilityStatType.BuffValue);
+    public int TargetsCount => (int)Config.GetStatValue(AbilityStatType.BuffValue);
     public override void Initialize(IBuilding building, AbilityConfig config)
     {
         base.Initialize(building, config);

@@ -158,7 +158,6 @@
 	// inline asm
 	ld.u32 	%rd55, [%rd9];
 	cvt.u32.u64	%r27, %rd55;
-	shr.u32 	%r28, %r27, 16;
 	cvt.s64.s32	%rd17, %r1;
 	mov.u64 	%rd56, vertex_buffer_uv;
 	cvta.global.u64 	%rd16, %rd56;
@@ -182,6 +181,7 @@
 	ld.v2.f32 	{%f31, %f32}, [%rd27];
 	fma.rn.f32 	%f35, %f16, %f31, %f29;
 	fma.rn.f32 	%f36, %f16, %f32, %f30;
+	shr.u32 	%r28, %r27, 16;
 	abs.f32 	%f37, %f35;
 	cvt.rmi.f32.f32	%f38, %f37;
 	sub.f32 	%f39, %f37, %f38;

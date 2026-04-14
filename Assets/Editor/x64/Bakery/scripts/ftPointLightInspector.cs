@@ -31,6 +31,7 @@ public class ftPointLightInspector : UnityEditor.Editor
     SerializedProperty ftraceLightFalloffMinRadius;
     SerializedProperty ftraceLightInnerAngle;
     SerializedProperty ftraceShadowmaskGroupID;
+    SerializedProperty ftraceCorrectCookieDistortion;
     SerializedProperty ftraceDirectionMode;
 
     UnityEngine.Object spotCookieTexture;
@@ -70,6 +71,7 @@ public class ftPointLightInspector : UnityEditor.Editor
         ftraceLightShadowmaskFalloff = obj.FindProperty("shadowmaskFalloff");
         ftraceLightFalloffMinRadius = obj.FindProperty("falloffMinRadius");
         ftraceShadowmaskGroupID = obj.FindProperty("shadowmaskGroupID");
+        ftraceCorrectCookieDistortion = obj.FindProperty("correctCookieDistortion");
         ftraceDirectionMode = obj.FindProperty("directionMode");
 
         var hdrpLight = (target as BakeryPointLight).GetComponent("HDAdditionalLightData");
@@ -415,6 +417,7 @@ public class ftPointLightInspector : UnityEditor.Editor
                 case (int)BakeryPointLight.ftLightProjectionMode.Cookie:
                     EditorGUILayout.PropertyField(ftraceLightTexture2D, new GUIContent("Cookie texture", "Texture"));
                     EditorGUILayout.Slider(ftraceLightAngle, 1, 179, new GUIContent("Angle", "Angle of projection (like in spotlights)."));
+                    EditorGUILayout.PropertyField(ftraceCorrectCookieDistortion, new GUIContent("Correct distortion", "Corrects cookie distortion visible on straight lines at wide angles."));
                     break;
                 case (int)BakeryPointLight.ftLightProjectionMode.Cone:
                     EditorGUILayout.Slider(ftraceLightAngle, 1, 180, new GUIContent("Outer angle"));

@@ -6,11 +6,13 @@ using UnityEngine;
 // Disable 'obsolete' warnings
 #pragma warning disable 0618
 
+[HelpURL("https://geom.io/bakery/wiki/index.php?title=Manual#Bakery_Lightmapped_Prefab")]
 [DisallowMultipleComponent]
 public class BakeryLightmappedPrefab : MonoBehaviour
 {
 #if UNITY_EDITOR
     public bool enableBaking = true;
+    public bool receiveLightmaps = true;
     public bool ignoreWarnings = false;
     public string errorMessage;
 
@@ -64,7 +66,8 @@ public class BakeryLightmappedPrefab : MonoBehaviour
                 if (mods[i].propertyPath == "m_RootOrder") continue;
                 if (mods[i].propertyPath == "errorMessage") continue;
                 if (mods[i].propertyPath == "enableBaking") continue;
-                if (mods[i].propertyPath.IndexOf("idremap") >= 0) continue;
+                if (mods[i].propertyPath == "enableBaking") continue;
+                if (mods[i].propertyPath.Contains("GlobalObjectIdHash")) continue;
                 if (mods[i].target != null && mods[i].target.name == gameObject.name)
                 {
                     if (mods[i].propertyPath.Contains("m_LocalPosition")) continue;

@@ -16,14 +16,14 @@ MonoBehaviour:
   displayName: Ghost
   description: Ghost
   level: 1
-  baseCount: 20
-  countIncreaseRatio: 0.04
-  baseSpawnInterval: 1
+  baseCount: 10
+  countIncreaseRatio: 0.1
+  baseSpawnInterval: 0.5
   spawnIntervalDecreaseRatio: 40
   combatStats:
     statsList:
     - statType: 0
-      statValue: 15
+      statValue: 7
     - statType: 4
       statValue: 1.4
     movementType: 0

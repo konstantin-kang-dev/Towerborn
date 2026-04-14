@@ -129,7 +129,7 @@ public class ftBuildLights
         f.Close();
     }
 
-    static public void BuildSkyLight(BakerySkyLight obj, int SAMPLES, bool texDirty, string outName = "sky.bin")
+    static public void BuildSkyLight(BakerySkyLight obj, int SAMPLES, bool texDirty, string outName = "sky.bin", bool skyOcclusion = false)
     {
         if (!allowOverwrite && lightSaved.ContainsKey(outName)) return;
         lightSaved[outName] = true;
@@ -139,20 +139,32 @@ public class ftBuildLights
         var f = new BinaryWriter(File.Open(folder + "/" + outName, FileMode.Create));
         if (ftRenderLightmap.clientMode) ftClient.serverFileList.Add(outName);
 
-        #if SRGBCONVERT
-            f.Write(obj.color.linear.r * obj.intensity);
-            f.Write(obj.color.linear.g * obj.intensity);
-            f.Write(obj.color.linear.b * obj.intensity);
-        #else
-            f.Write(obj.color.r * obj.intensity);
-            f.Write(obj.color.g * obj.intensity);
-            f.Write(obj.color.b * obj.intensity);
-        #endif
+        if (skyOcclusion)
+        {
+            f.Write(1.0f);
+            f.Write(1.0f);
+            f.Write(1.0f);
+        }
+        else
+        {
+            #if SRGBCONVERT
+                f.Write(obj.color.linear.r * obj.intensity);
+                f.Write(obj.color.linear.g * obj.intensity);
+                f.Write(obj.color.linear.b * obj.intensity);
+            #else
+                f.Write(obj.color.r * obj.intensity);
+                f.Write(obj.color.g * obj.intensity);
+                f.Write(obj.color.b * obj.intensity);
+            #endif
+        }
 
         f.Write(SAMPLES);
         f.Write(obj.hemispherical);
 
-        var texName = obj.cubemap != null ? GetTempTexName(obj.cubemap, "sky") : "sky.dds";
+        var cubemap = skyOcclusion ? null : obj.cubemap;
+        if (skyOcclusion) texDirty = false;
+
+        var texName = cubemap != null ? GetTempTexName(obj.cubemap, "sky") : "sky.dds";
         f.Write(texName);
 
         f.Close();
@@ -193,7 +205,7 @@ public class ftBuildLights
                 }
                 else
                 {
-                    int usage = (int)texUtil_GetUsage.Invoke(null, new object[]{obj.cubemap});
+                    int usage = (int)texUtil_GetUsage.Invoke(null, new object[]{cubemap});
                     isDoubleLDR = usage == 1 // BakedLightmapDoubleLDR
                                || usage == 7;// DoubleLDR
                     isRGBM = usage == 5;     // RGBMEncoded
@@ -226,7 +238,7 @@ public class ftBuildLights
                 }
                 else
                 {
-                    var a = ftBuildGraphics.InputDataFromCubemap(obj.cubemap as Texture, Matrix4x4.TRS(Vector3.zero, obj.transform.rotation, Vector3.one).transpose, isLinear, isDoubleLDR, ftBuildGraphics.TexInputType.FloatColor);
+                    var a = ftBuildGraphics.InputDataFromCubemap(cubemap as Texture, Matrix4x4.TRS(Vector3.zero, obj.transform.rotation, Vector3.one).transpose, isLinear, isDoubleLDR, ftBuildGraphics.TexInputType.FloatColor);
                     ftBuildGraphics.SaveCookieFromRAM(a,
                             folder + "/" + texName
                             );
@@ -256,7 +268,7 @@ public class ftBuildLights
                 }
                 else
                 {
-                    var a = ftBuildGraphics.InputDataFromCubemap(obj.cubemap as Texture, Matrix4x4.TRS(Vector3.zero, obj.transform.rotation, Vector3.one), isLinear, isDoubleLDR, ftBuildGraphics.TexInputType.FloatColor);
+                    var a = ftBuildGraphics.InputDataFromCubemap(cubemap as Texture, Matrix4x4.TRS(Vector3.zero, obj.transform.rotation, Vector3.one), isLinear, isDoubleLDR, ftBuildGraphics.TexInputType.FloatColor);
                     ftBuildGraphics.SaveCookieFromRAM(a,
                             folder + "/" + texName
                             );
@@ -948,7 +960,11 @@ public class ftBuildLights
             f.Write(texName);
         }
 
-        if (isCookie) f.Write(obj.angle);
+        if (isCookie)
+        {
+            float projParam2 = obj.correctCookieDistortion ? -obj.angle : obj.angle;
+            f.Write(projParam2);
+        }
 
         if (texDirty)
         {
@@ -1135,7 +1151,7 @@ public class ftBuildLights
             }
             else if (projMode == BakeryPointLight.ftLightProjectionMode.Cookie)
             {
-                projParam2 = obj.angle;
+                projParam2 = obj.correctCookieDistortion ? -obj.angle : obj.angle;
             }
 
             flights.Write((float)projMode);
@@ -1224,6 +1240,64 @@ public class ftBuildLights
         flights.Close();
 
         return isError;
+    }
+
+    static public void BuildTranslucentTextures(BakeryLightFilter[] filters, string outName = "filters.bin")
+    {
+        var folder = ftBuildGraphics.scenePath;
+        if (!Directory.Exists(folder)) Directory.CreateDirectory(folder);
+        var f = new BinaryWriter(File.Open(folder + "/" + outName, FileMode.Create));
+        if (ftRenderLightmap.clientMode) ftClient.serverFileList.Add(outName);
+
+        var filterTexID = new Dictionary<int, int>();
+        if (tex2hash == null) tex2hash = new Dictionary<UnityEngine.Object, int>();
+
+        f.Write(0);
+        for(int i=0; i<filters.Length; i++)
+        {
+            var tex = filters[i].texture;
+            if (tex == null) continue;
+            int existingTexHash;
+            string texName = "";
+            if (!tex2hash.TryGetValue(tex, out existingTexHash)) existingTexHash = -1;
+            if (existingTexHash < 0)
+            {
+                int texHash = tex.GetHashCode();
+                tex2hash[tex] = texHash;
+                existingTexHash = texHash;
+            }
+            texName = GetTempTexName(tex, "cookie_");
+
+            int texID;
+            if (!filterTexID.TryGetValue(existingTexHash, out texID))
+            {
+                WriteNullTerminatedStringWithNewLine(f, texName);
+                filterTexID[existingTexHash] = texID = filterTexID.Count;
+            }
+            filters[i].lmid = texID;
+
+            // Save original texture to RGBA32F DDS
+            if (SystemInfo.graphicsDeviceType == GraphicsDeviceType.Direct3D11)
+            {
+                ftBuildGraphics.InitShaders();
+                ftBuildGraphics.SaveCookie((tex as Texture2D).GetNativeTexturePtr(),
+                        folder + "/" + texName
+                        );
+                GL.IssuePluginEvent(4);
+            }
+            else
+            {
+                var a = ftBuildGraphics.InputDataFromTex(tex, ftBuildGraphics.TexInputType.FloatColor);
+                ftBuildGraphics.SaveCookieFromRAM(a,
+                        folder + "/" + texName
+                        );
+            }
+            if (ftRenderLightmap.clientMode) ftClient.serverFileList.Add(texName);
+        }
+
+        f.BaseStream.Seek(0, SeekOrigin.Begin);
+        f.Write(filterTexID.Count);
+        f.Close();
     }
 }
 

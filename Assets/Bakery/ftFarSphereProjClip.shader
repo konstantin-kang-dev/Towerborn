@@ -97,6 +97,7 @@ Shader "Hidden/ftFarSphereProjClip"
                 }
                 if (occlusion > 0) discard;
 
+
                 // clear curDepth
                 return 0;
             }

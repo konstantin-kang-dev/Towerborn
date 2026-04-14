@@ -11,14 +11,14 @@ public static class ProjectConstants
 
     public const float BASE_COMMON_WAVE_REWARD_AMOUNT = 15f;
     public const float BASE_COMMON_WAVE_REWARD_AMOUNT_RATIO = 0.2f;
-    public const float BASE_BOSS_WAVE_REWARD_AMOUNT = 1.5f;
-    public const float BASE_BOSS_WAVE_REWARD_AMOUNT_RATIO = 0.2f;
-    public const float BASE_ENEMY_KILL_REWARD = 2f;
-    public const float BASE_ENEMY_KILL_REWARD_WAVE_SCALE = 0.02f;
+    public const float BASE_BOSS_WAVE_REWARD_AMOUNT = 3f;
+    public const float BASE_BOSS_WAVE_REWARD_AMOUNT_RATIO = 0.1f;
+    public const float BASE_ENEMY_KILL_REWARD = 4f;
+    public const float BASE_ENEMY_KILL_REWARD_WAVE_SCALE = 0.05f;
 
     public const float BASE_ENEMY_SPAWN_INTERVAL_WAVE_RATIO = 30f;
 
-    public const float BASE_ENEMY_HP_MULTIPLIER_PER_LEVEL = 1.3f;
+    public const float BASE_ENEMY_HP_MULTIPLIER_PER_LEVEL = 1.4f;
 
     public const int MAX_BUILDING_LEVEL = 5;
     public const int MIN_FREE_GRID_CELLS = 4;

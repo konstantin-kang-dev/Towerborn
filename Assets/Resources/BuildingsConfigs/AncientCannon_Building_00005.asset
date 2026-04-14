@@ -26,11 +26,11 @@ MonoBehaviour:
   combatStats:
     statsList:
     - statType: 1
-      statValue: 60
+      statValue: 30
     - statType: 2
       statValue: 3
     - statType: 3
-      statValue: 1
+      statValue: 0.5
     movementType: 0
     projectileStats:
       moveSpeed: 10

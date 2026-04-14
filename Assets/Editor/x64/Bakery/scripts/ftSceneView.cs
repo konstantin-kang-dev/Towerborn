@@ -105,7 +105,7 @@ public class ftSceneView
             objs[i].SetPropertyBlock(prop);
         }
 
-        Debug.Log("Lightmap count with current settings: " + usedLMIDs.Count);
+        Debug.Log("Lightmap count with current settings: " + usedLMIDs.Count+", intermediate maps: " + ftBuildGraphics.atlasOnlyGroup.Count);
 
         LightmapSettings.lightmaps = existingLmaps.ToArray();
     }

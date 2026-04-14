@@ -26,6 +26,7 @@ public partial class ftModelPostProcessor : ftModelPostProcessorInternal
     static ftGlobalStorage storage;
     UnwrapParam uparams;
     const int res = 1024;
+    static Shader shdr;
     static Material mat;
     public static RenderTexture rt;
     public static Texture2D tex;
@@ -133,7 +134,8 @@ public partial class ftModelPostProcessor : ftModelPostProcessorInternal
             if (storage != null) storage.InitModifiedMeshMap(assetPath);
 
             var tt = GetTime();
-            AdjustUV(g.transform, saved);
+            var duplCheck = new HashSet<string>();
+            AdjustUV(g.transform, duplCheck, saved);
             Debug.Log("UV adjustment time: " + (GetTime() - tt));
         }
         else
@@ -156,7 +158,7 @@ public partial class ftModelPostProcessor : ftModelPostProcessorInternal
     {
         rt = new RenderTexture(res, res, 0, RenderTextureFormat.ARGB32, RenderTextureReadWrite.Linear);
         tex = new Texture2D(res, res, TextureFormat.ARGB32, false, true);
-        var shdr = Shader.Find("Hidden/ftOverlapTest");
+        if (shdr == null) shdr = Shader.Find("Hidden/ftOverlapTest");
         if (shdr == null)
         {
             var bakeryRuntimePath = ftLightmaps.GetRuntimePath();
@@ -167,7 +169,7 @@ public partial class ftModelPostProcessor : ftModelPostProcessorInternal
                 return false;
             }
         }
-        mat = new Material(shdr);
+        if (mat == null) mat = new Material(shdr);
         return true;
     }
 
@@ -224,10 +226,10 @@ public partial class ftModelPostProcessor : ftModelPostProcessorInternal
         int overlap = DoOverlapCheck(g, true);
         EndOverlapCheck();
 
-        if (overlap != 1 && overlap > 0)
-        {
-            Debug.LogWarning("[Bakery warning] " + overlap + " pixels overlap: " + assetPath);
-        }
+        //if (overlap != 1 && overlap > 0)
+        //{
+            //Debug.LogWarning("[Bakery warning] " + overlap + " pixels overlap: " + assetPath);
+        //}
 
         //var index = storage.assetList.IndexOf(assetPath);
         var index = storage.assetList.IndexOf(assetPath);
@@ -270,7 +272,7 @@ public partial class ftModelPostProcessor : ftModelPostProcessorInternal
         return true;
     }
 
-    void AdjustUV(Transform t, ftSavedPadding2 saved = null)
+    void AdjustUV(Transform t, HashSet<string> duplCheck, ftSavedPadding2 saved = null)
     {
         var mf = t.GetComponent<MeshFilter>();
         if (mf != null && mf.sharedMesh != null)
@@ -278,6 +280,15 @@ public partial class ftModelPostProcessor : ftModelPostProcessorInternal
             var m = mf.sharedMesh;
             var nm = m.name;
             int modifiedMeshID;
+
+            if (duplCheck.Contains(nm))
+            {
+                Debug.LogError("Adjusting UV padding for multiple meshes with the same name ("+nm+") in model "+assetPath +" - this may result in incorrect adjustment.");
+            }
+            else
+            {
+                duplCheck.Add(nm);
+            }
 
             if (saved != null)
             {
@@ -364,7 +375,7 @@ public partial class ftModelPostProcessor : ftModelPostProcessorInternal
 
         // Recurse
         foreach (Transform child in t)
-            AdjustUV(child, saved);
+            AdjustUV(child, duplCheck, saved);
     }
 
     static bool RenderMeshes(Transform t, bool deep)

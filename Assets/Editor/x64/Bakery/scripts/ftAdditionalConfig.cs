@@ -22,9 +22,28 @@ public class ftAdditionalConfig
     public const float rr_irradianceConvolutionL2_6 =     irradianceConvolutionL2_6 * 0.6f;
     public const float rr_irradianceConvolutionL2_8 =     irradianceConvolutionL2_8 * 0.6f;
 
+    const float CosineA0 = Mathf.PI; // from MJP's "ConvolveWithCosineLobe"
+    const float CosineA1 = (2.0f * Mathf.PI) / 3.0f;
+    const float CosineA2 = (0.25f * Mathf.PI);
+
+    public const float rrd_irradianceConvolutionL0 =       irradianceConvolutionL0 * (CosineA0 / Mathf.PI);
+    public const float rrd_irradianceConvolutionL1 =       irradianceConvolutionL1 * (CosineA1 / Mathf.PI);
+    public const float rrd_irradianceConvolutionL2_4_5_7 = irradianceConvolutionL2_4_5_7 * (CosineA2 / Mathf.PI);
+    public const float rrd_irradianceConvolutionL2_6 =     irradianceConvolutionL2_6 * (CosineA2 / Mathf.PI);
+    public const float rrd_irradianceConvolutionL2_8 =     irradianceConvolutionL2_8 * (CosineA2 / Mathf.PI);
+
     // Used for L1 light probes and volumes
     public const float convL0 = 1;
     public const float convL1 = 0.9f; // approx convolution
+
+    // More properly convolved version
+    const float SqrtPi = 1.7724538509055159f;//Mathf.Sqrt(Mathf.PI);
+    const float BasisL0 = 1.0f / (2.0f * SqrtPi);
+    const float BasisL1 = 1.7320508075688772f / (2.0f * SqrtPi);// Mathf.Sqrt(3.0f) / (2.0f * SqrtPi);
+    public const float convL0b = BasisL0 * (CosineA0 / Mathf.PI);
+    public const float convL1b = BasisL1 * (CosineA1 / Mathf.PI);
+
+    public const bool APVL1ToL2 = false;
 
     // Calculate multiple point lights in one pass. No reason to disable it, unless there is a bug.
     public static bool batchPointLights = true;
@@ -39,6 +58,15 @@ public class ftAdditionalConfig
 #endif
 
     public const int volumeSceneLODLevel = -1;
+
+    public const int clampLightmapSize = 32000;
+
+    // Terminate lightmapping jobs immediately, without waiting for them to finish a tile.
+    // Originally during development it was noted that abpruptly terminating it could randomly cause a driver crash, thus it waits for the kernel to finish and quits "gracefully".
+    public const bool terminateImmediately = false;
+
+    // Skip objects with EditorOnly tag?
+    public const bool skipEditorOnly = true;
 
 /*
     Following settings are moved to Project Settings

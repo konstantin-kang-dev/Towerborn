@@ -16,14 +16,14 @@ MonoBehaviour:
   displayName: Soldier
   description: Soldier
   level: 1
-  baseCount: 20
-  countIncreaseRatio: 0.04
-  baseSpawnInterval: 1
+  baseCount: 10
+  countIncreaseRatio: 0.1
+  baseSpawnInterval: 0.5
   spawnIntervalDecreaseRatio: 40
   combatStats:
     statsList:
     - statType: 0
-      statValue: 20
+      statValue: 10
     - statType: 4
       statValue: 0.9
     movementType: 0

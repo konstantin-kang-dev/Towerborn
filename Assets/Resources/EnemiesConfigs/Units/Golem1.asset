@@ -16,14 +16,14 @@ MonoBehaviour:
   displayName: Golem
   description: 
   level: 1
-  baseCount: 20
-  countIncreaseRatio: 0.04
-  baseSpawnInterval: 1
+  baseCount: 10
+  countIncreaseRatio: 0.1
+  baseSpawnInterval: 0.5
   spawnIntervalDecreaseRatio: 40
   combatStats:
     statsList:
     - statType: 0
-      statValue: 25
+      statValue: 12
     - statType: 4
       statValue: 0.65
     movementType: 0

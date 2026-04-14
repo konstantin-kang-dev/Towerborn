@@ -11,6 +11,6 @@ AssetOrigin:
   serializedVersion: 1
   productId: 122218
   packageName: Bakery - GPU Lightmapper
-  packageVersion: 1.96
+  packageVersion: 
   assetPath: Assets/Bakery/examples/lightmaps/example_sponza_day_0_probes.asset
-  uploadId: 641446
+  uploadId: 0

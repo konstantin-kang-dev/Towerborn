@@ -14,4 +14,46 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   modifiedAssetPathList:
   - Assets/Bakery/examples/content/sponza/sponza.FBX
-  modifiedAssetPaddingHash: d6a958ff
+  - Assets/Kenney/Pirate Kit/Models/FBX format/grass-patch.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/log_stackLarge.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/crop_pumpkin.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/crops_cornStageB.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/tent_smallOpen.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/path_stoneEnd.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallH.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/log.fbx
+  - Assets/Kenney/Graveyard Kit/Models/FBX format/pine.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallA.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/campfire_stones.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallB.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/path_stoneCorner.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/log_large.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/crops_bambooStageB.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_smallTopB.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/fence_planksDouble.fbx
+  - Assets/Kenney/Tower Defense Kit/Models/FBX format/tower-square-build-a.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/log_stack.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/crops_wheatStageB.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/fence_simpleLow.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallD.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallC.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stump_square.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/mushroom_tanTall.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/mushroom_tanGroup.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_smallE.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallE.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallF.fbx
+  - Assets/Kenney/Tower Defense Kit/Models/FBX format/tile-corner-square.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/platform_stone.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/statue_ring.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/statue_head.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallJ.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stone_tallG.fbx
+  - Assets/Kenney/Nature Kit/Models/FBX format/stump_roundDetailed.fbx
+  - Assets/Kenney/Tower Defense Kit/Models/FBX format/tower-square-build-e.fbx
+  - Assets/Kenney/Graveyard Kit/Models/FBX format/pine-crooked.fbx
+  - Assets/Kenney/Tower Defense Kit/Models/FBX format/tile-straight.fbx
+  - Assets/Kenney/Graveyard Kit/Models/FBX format/lightpost-single.fbx
+  - Assets/Kenney/Tower Defense Kit/Models/FBX format/tower-square-build-d.fbx
+  - Assets/Kenney/Tower Defense Kit/Models/FBX format/weapon-cannon.fbx
+  modifiedAssetPaddingHash: d6a958ffd2f23a068109ecc0275031ee717f9363d7c2a693534ffff014f33a06c04dfff0e55031ee343fd3d91067e2a83e3fd3d9275031eefa4dfff038c2a693797e9363a35031ee3e3fd3d97ac2a6938cdb894b0cf43a06de09ecc0af67e2a80cf43a06db5634b7b95634b7f1f23a064adc894bde09ecc04adc894bb4c2a693be398033d7c2a69380c5d890797e936342dd894b353fd3d9de09ecc0f1f23a06c04dfff0343fd3d901aec8f7

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
+using System.Reflection;
 #if UNITY_2021_2_OR_NEWER
 using System.IO;
 using System.IO.MemoryMappedFiles;
@@ -19,6 +20,30 @@ public class ftTextureProcessor : AssetPostprocessor
     public const int TEX_DIR = 3;
     public const int TEX_MASK_NO_ALPHA = 4;
     public const int TEX_DIR_NO_ALPHA = 5;
+
+    static MethodInfo GetBuildTargetNameMethod = null;
+
+    static string GetBuildTargetName(BuildTarget target)
+    {
+        if (GetBuildTargetNameMethod == null)
+        {
+            GetBuildTargetNameMethod = typeof(BuildPipeline).GetMethod("GetBuildTargetName", BindingFlags.NonPublic | BindingFlags.Public | BindingFlags.Static);
+            if (GetBuildTargetNameMethod == null)
+            {
+                Debug.LogError("Can't get GetBuildTargetName");
+                return "Default";
+            }
+        }
+        return (string)GetBuildTargetNameMethod.Invoke(null, new object[] { target });
+    }
+
+    static void SetSpecificFormat(TextureImporter importer, TextureImporterFormat format)
+    {
+        var platformSettings = importer.GetPlatformTextureSettings(GetBuildTargetName(EditorUserBuildSettings.activeBuildTarget));
+        platformSettings.format = format;
+        platformSettings.overridden = true;
+        importer.SetPlatformTextureSettings(platformSettings);
+    }
 
 #if (!UNITY_2020_2_OR_NEWER)
     // Pre-broken Unity
@@ -89,6 +114,11 @@ public class ftTextureProcessor : AssetPostprocessor
         importer.mipmapEnabled = pstorage.mipmapLightmaps;
         importer.wrapMode = TextureWrapMode.Clamp;
 
+#if UNITY_2018_2_OR_NEWER
+        importer.streamingMipmaps = pstorage.streamingMipmaps;
+        importer.streamingMipmapsPriority = pstorage.streamingPriority;
+#endif
+
         int texType = (int)settings.y;
         switch(texType)
         {
@@ -100,6 +130,7 @@ public class ftTextureProcessor : AssetPostprocessor
                     importer.textureCompression = pstorage.lightmapCompression == BakeryProjectSettings.Compression.ForceCompress ?
                         TextureImporterCompression.Compressed : TextureImporterCompression.Uncompressed;
                 }
+                if (pstorage.forceSpecificColorFormat >= 0) SetSpecificFormat(importer, pstorage.forceSpecificColorFormat);
                 break;
             }
             case TEX_LMDEFAULT:
@@ -110,6 +141,7 @@ public class ftTextureProcessor : AssetPostprocessor
                     importer.textureCompression = pstorage.lightmapCompression == BakeryProjectSettings.Compression.ForceCompress ?
                         TextureImporterCompression.Compressed : TextureImporterCompression.Uncompressed;
                 }
+                if (pstorage.forceSpecificColorFormat >= 0) SetSpecificFormat(importer, pstorage.forceSpecificColorFormat);
                 break;
             }
             case TEX_MASK:
@@ -117,6 +149,7 @@ public class ftTextureProcessor : AssetPostprocessor
                 importer.textureType = TextureImporterType.Default;
                 importer.textureCompression = pstorage.lightmapCompression != BakeryProjectSettings.Compression.ForceNoCompress ? TextureImporterCompression.CompressedHQ : TextureImporterCompression.Uncompressed;
                 importer.alphaSource = TextureImporterAlphaSource.FromInput;
+                if (pstorage.forceSpecificMaskFormat >= 0) SetSpecificFormat(importer, pstorage.forceSpecificMaskFormat);
                 break;
             }
             case TEX_MASK_NO_ALPHA:
@@ -124,6 +157,7 @@ public class ftTextureProcessor : AssetPostprocessor
                 importer.textureType = TextureImporterType.Default;
                 importer.textureCompression = pstorage.lightmapCompression != BakeryProjectSettings.Compression.ForceNoCompress ? TextureImporterCompression.Compressed : TextureImporterCompression.Uncompressed;
                 importer.alphaSource = TextureImporterAlphaSource.None;
+                if (pstorage.forceSpecificMaskFormat >= 0) SetSpecificFormat(importer, pstorage.forceSpecificMaskFormat);
                 break;
             }
             case TEX_DIR:
@@ -131,14 +165,16 @@ public class ftTextureProcessor : AssetPostprocessor
                 importer.textureType = TextureImporterType.Default;
                 importer.textureCompression =  pstorage.lightmapCompression != BakeryProjectSettings.Compression.ForceNoCompress ? (pstorage.dirHighQuality ? TextureImporterCompression.CompressedHQ : TextureImporterCompression.Compressed) : TextureImporterCompression.Uncompressed;
                 importer.sRGBTexture = (pstorage.format8bit == BakeryProjectSettings.FileFormat.PNG);
+                if (pstorage.forceSpecificDirFormat >= 0) SetSpecificFormat(importer, pstorage.forceSpecificDirFormat);
                 break;
             }
             case TEX_DIR_NO_ALPHA:
             {
                 importer.textureType = TextureImporterType.Default;
-                importer.textureCompression = pstorage.lightmapCompression != BakeryProjectSettings.Compression.ForceNoCompress ? TextureImporterCompression.Compressed : TextureImporterCompression.Uncompressed;
+                importer.textureCompression = pstorage.lightmapCompression != BakeryProjectSettings.Compression.ForceNoCompress ? (pstorage.dirHighQuality ? TextureImporterCompression.CompressedHQ : TextureImporterCompression.Compressed) : TextureImporterCompression.Uncompressed;
                 importer.alphaSource = TextureImporterAlphaSource.None;
                 importer.sRGBTexture = false;//(pstorage.format8bit == BakeryProjectSettings.FileFormat.PNG);
+                if (pstorage.forceSpecificDirFormat >= 0) SetSpecificFormat(importer, pstorage.forceSpecificDirFormat);
                 break;
             }
         }

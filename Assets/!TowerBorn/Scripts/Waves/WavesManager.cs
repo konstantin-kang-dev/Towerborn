@@ -204,7 +204,7 @@ public class WavesManager : MonoBehaviour
     {
         Debug.Log($"Started wave! {config.waveNumber}");
 
-        float waveProgressUpdateDelay = Math.Clamp(config.spawnDelay, 0, 2f);
+        float waveProgressUpdateDelay = Math.Clamp(config.spawnDelay, 0, 1f);
 
         yield return new WaitForSeconds(config.spawnDelay - waveProgressUpdateDelay);
 
