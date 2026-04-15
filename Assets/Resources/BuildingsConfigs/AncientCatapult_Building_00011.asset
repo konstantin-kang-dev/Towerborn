@@ -29,7 +29,7 @@ MonoBehaviour:
     - statType: 1
       statValue: 85
     - statType: 2
-      statValue: 4
+      statValue: 5.5
     - statType: 3
       statValue: 3.5
     movementType: 0
