@@ -51,14 +51,14 @@ public class BuildingsManager : MonoBehaviour
             configClone.BuildingPrefab, position, Quaternion.identity, transform);
 
         Vector3Int cell = GameGrid.Instance.GetCellFromPosition(position);
-        cell = GameGrid.Instance.FindNearestFreeCell(cell);
+        cell = GameGrid.Instance.FindNearestFreeCell(cell, null);
 
         Vector3 worldPosition = GameGrid.Instance.GetPositionFromCell(cell);
         buildingComp.transform.position = worldPosition + GameGrid.Instance.CellPivotOffset;
         buildingComp.UpdatePlacePosition(cell);
         GameGrid.Instance.MarkCellAsOccupied(cell, buildingComp);
 
-        buildingComp.SetData(configClone);
+        buildingComp.SetDataAndPlace(configClone);
         OnBuildingSpawn?.Invoke(buildingComp);
 
         return buildingComp;
@@ -138,6 +138,7 @@ public class BuildingsManager : MonoBehaviour
     public bool CompareBuildings(IBuilding buildingA, IBuilding buildingB)
     {
         if(buildingA == null || buildingB == null) return false;
+        if(!buildingA.IsPlaced || !buildingB.IsPlaced) return false;
 
         bool isMaxLevel = buildingA.BuildingConfig.Level == ProjectConstants.MAX_BUILDING_LEVEL;
         bool isSameBuilding = buildingA == buildingB;

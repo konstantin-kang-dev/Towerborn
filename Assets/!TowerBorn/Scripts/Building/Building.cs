@@ -38,6 +38,7 @@ public class Building : MonoBehaviour, IBuilding
     [Header("Other")] 
     public Collider Collider { get; private set; }
     public bool IsInitialized { get; private set; } = false;
+    public bool IsPlaced { get; private set; } = false;
     public BuildingState CombatState => CombatStateMachine.CurrentState.StateType;
 
     [Inject] public AbilitiesController AbilitiesController { get; private set; }
@@ -88,7 +89,7 @@ public class Building : MonoBehaviour, IBuilding
         IsInitialized = true;
     }
 
-    public virtual void SetData(BuildingConfig config)
+    public virtual void SetDataAndPlace(BuildingConfig config)
     {
         BuildingConfig = config;
         SetupComponents();
@@ -104,6 +105,8 @@ public class Building : MonoBehaviour, IBuilding
         {
             BuildingBoundaries.SetAtkRangeSize(StatsController.TotalAtkRange);
         }
+
+        IsPlaced = true;
     }
 
     protected virtual void SetupComponents()

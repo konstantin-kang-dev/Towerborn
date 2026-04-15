@@ -114,7 +114,7 @@ public class GameGrid : MonoBehaviour
         return gridCells.TryGetValue(cell, out Building building) ? building : null;
     }
 
-    public Vector3Int FindNearestFreeCell(Vector3 worldPosition)
+    public Vector3Int FindNearestFreeCell(Vector3 worldPosition, Building checkingBuilding)
     {
         Vector3Int bestCell = Vector3Int.zero;
 
@@ -131,7 +131,15 @@ public class GameGrid : MonoBehaviour
                 checkedCells++;
 
                 bool isOccupied = CheckIsCellOccupied(testCell);
-                if (!isOccupied)
+
+                bool isMergeable = false;
+                if (checkingBuilding != null && isOccupied)
+                {
+                    Building buildingInCell = GetBuildingAtCell(testCell);
+                    isMergeable = BuildingsManager.Instance.CompareBuildings(checkingBuilding, buildingInCell);
+                }
+
+                if (!isOccupied || (isOccupied && isMergeable))
                 {
                     freeCells++;
                     Vector3 cellWorldPos = grid.CellToWorld(testCell);

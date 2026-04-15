@@ -59,7 +59,7 @@ public class BuildingPlacer : MonoBehaviour
             Debug.DrawLine(Camera.main.transform.position, hit.point, Color.red, 2f);
 #endif
 
-            clickedCell = GameGrid.Instance.GetCellFromPosition(hit.point);
+            clickedCell = GameGrid.Instance.FindNearestFreeCell(hit.point, MovingBuilding);
             clickedWorldPoint = hit.point;
         }
 
@@ -79,7 +79,7 @@ public class BuildingPlacer : MonoBehaviour
         else
         {
             GameGrid.Instance.MarkCellAsFree(MovingBuilding.PlacementCell);
-            clickedCell = GameGrid.Instance.FindNearestFreeCell(clickedWorldPoint);
+            clickedCell = GameGrid.Instance.FindNearestFreeCell(clickedWorldPoint, null);
 
             Vector3 worldPosition = GameGrid.Instance.GetPositionFromCell(clickedCell);
 

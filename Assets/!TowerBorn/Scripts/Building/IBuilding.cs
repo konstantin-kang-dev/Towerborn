@@ -16,5 +16,7 @@ public interface IBuilding
     BuildingStatsController StatsController { get; }
     CombatStateMachine CombatStateMachine { get; }
 
+    bool IsInitialized { get; } 
+    bool IsPlaced { get; } 
     void DestroyBuilding();
 }
