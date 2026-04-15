@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["statue_head"],"padding":[19],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["statue_head"],"padding":[39],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

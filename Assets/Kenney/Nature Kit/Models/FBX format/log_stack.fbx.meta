@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["log_stack"],"padding":[49],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["log_stack"],"padding":[99],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

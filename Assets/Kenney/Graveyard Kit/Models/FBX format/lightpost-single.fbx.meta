@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["lightpost_single"],"padding":[58],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["lightpost_single"],"padding":[116],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

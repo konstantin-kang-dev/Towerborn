@@ -16,7 +16,7 @@ MonoBehaviour:
   displayName: Spruce
   description: Holy spruce
   level: 1
-  baseCount: 2
+  baseCount: 1
   countIncreaseRatio: 0.025
   baseSpawnInterval: 1
   spawnIntervalDecreaseRatio: 80

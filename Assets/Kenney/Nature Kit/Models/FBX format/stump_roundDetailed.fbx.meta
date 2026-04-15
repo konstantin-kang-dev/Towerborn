@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["stump_roundDetailed"],"padding":[96],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["stump_roundDetailed"],"padding":[192],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

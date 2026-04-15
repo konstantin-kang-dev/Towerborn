@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["stone_tallH"],"padding":[10],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["stone_tallH"],"padding":[20],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

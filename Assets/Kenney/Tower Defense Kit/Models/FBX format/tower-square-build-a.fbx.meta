@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["tower-square-build-a"],"padding":[9],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["tower-square-build-a"],"padding":[18],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

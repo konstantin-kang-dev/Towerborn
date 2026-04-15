@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["crop_pumpkin"],"padding":[77],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["crop_pumpkin"],"padding":[155],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["fence_planksDouble"],"padding":[37],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["fence_planksDouble"],"padding":[74],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

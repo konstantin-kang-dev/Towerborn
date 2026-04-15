@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["campfire_stones"],"padding":[61],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["campfire_stones"],"padding":[123],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

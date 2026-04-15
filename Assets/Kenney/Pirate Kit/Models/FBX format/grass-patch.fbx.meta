@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["grass-patch"],"padding":[30],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["grass-patch"],"padding":[60],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

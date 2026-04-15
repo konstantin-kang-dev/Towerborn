@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["tile-straight"],"padding":[20],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["tile-straight"],"padding":[40],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:

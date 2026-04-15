@@ -29,7 +29,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties:
-    - '#BAKERY{"meshName":["crops_bambooStageB"],"padding":[69],"unwrapper":[0]}'
+    - '#BAKERY{"meshName":["crops_bambooStageB"],"padding":[138],"unwrapper":[0]}'
     clipAnimations: []
     isReadable: 0
   meshes:
