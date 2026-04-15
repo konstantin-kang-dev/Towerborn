@@ -23,7 +23,7 @@ MonoBehaviour:
   combatStats:
     statsList:
     - statType: 0
-      statValue: 74
+      statValue: 59
     - statType: 4
       statValue: 1.2
     movementType: 0
