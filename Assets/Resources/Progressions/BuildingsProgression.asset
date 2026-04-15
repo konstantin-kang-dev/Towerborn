@@ -28,30 +28,30 @@ MonoBehaviour:
   - level: 3
     upgradesMultipliers:
     - statType: 1
-      statValue: 3
+      statValue: 2.56
     - statType: 3
-      statValue: 0.7
+      statValue: 0.64
   - level: 4
     upgradesMultipliers:
     - statType: 1
-      statValue: 4
+      statValue: 4.09
     - statType: 3
-      statValue: 0.6
+      statValue: 0.51
   - level: 5
     upgradesMultipliers:
     - statType: 1
-      statValue: 7
+      statValue: 6.55
     - statType: 3
-      statValue: 0.5
+      statValue: 0.41
   - level: 6
     upgradesMultipliers:
     - statType: 1
-      statValue: 11
+      statValue: 10.4
     - statType: 3
-      statValue: 0.4
+      statValue: 0.32
   - level: 7
     upgradesMultipliers:
     - statType: 1
-      statValue: 18
+      statValue: 16.7
     - statType: 3
-      statValue: 0.3
+      statValue: 0.26
